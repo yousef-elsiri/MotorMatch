@@ -1,0 +1,66 @@
+.details {
+    padding: 40px;
+    border-radius: 25px;
+}
+
+.details h2 {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.details p {
+    color: #8b93a8;
+    margin-bottom: 35px;
+}
+
+.details-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box label {
+    color: #9aa2b6;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.input-box input,
+.input-box select,
+.input-box textarea {
+    width: 100%;
+    background: #090d15;
+    border: 1px solid #22293a;
+    border-radius: 12px;
+    color: white;
+    padding: 15px;
+    outline: none;
+    font-size: 16px;
+}
+
+.input-box input,
+.input-box select {
+    height: 55px;
+}
+
+.description {
+    margin-top: 30px;
+}
+
+.description textarea {
+    height: 180px;
+    resize: none;
+}
+
+.input-box input:focus,
+.input-box select:focus,
+.input-box textarea:focus {
+    border: 1px solid #ff7a1a;
+}

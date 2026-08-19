@@ -1,0 +1,54 @@
+#popular_brands_title {
+    padding: 0 50px 0 50px;
+}
+
+#popular_brands_description {
+    padding: 0 50px 20px 50px;
+    color: #94a3b8;
+}
+
+#listings {
+  color: #94a3b8;
+}
+
+#brand_name {
+  color: #ffffff;
+  font-weight: 200;
+}
+
+.brands_grid {
+  padding: 0 50px 50px 50px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.brand_card {
+  background: #08101f;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 10px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.brand_card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(243, 101, 0, 0.5);
+}
+
+.brand_logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.05);
+  display: flex;
+  font-weight: 400;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}

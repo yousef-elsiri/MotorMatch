@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap");
+
+
+:root {
+  /* Dark Theme */
+  --bg-color: #050b16;
+  --surface-color: #0f172a;
+  --card-color: #111827;
+
+  --text-primary: #ffffff;  
+  --text-secondary: #94a3b8;
+
+  --border-color: #1e293b;
+
+  --accent-color: #ff7b00;
+}
+
+.app.light {
+  /* Light Theme */
+  --bg-color: #ffffff;
+  --surface-color: #f8fafc;
+  --card-color: #f1f5f9;
+
+  --text-primary: #111827;
+  --text-secondary: #64748b;
+
+  --border-color: #dbe2ea;
+
+  --accent-color: #ff7b00;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  min-width: 0;
+  overflow-x: clip;
+}
+
+img,
+svg {
+  max-width: 100%;
+}

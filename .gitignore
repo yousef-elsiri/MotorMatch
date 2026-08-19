@@ -1,0 +1,26 @@
+# React
+React_Project/node_modules/
+React_Project/dist/
+React_Project/.env
+React_Project/.env.*
+
+# Laravel
+BACK-END/back-end/vendor/
+BACK-END/back-end/node_modules/
+BACK-END/back-end/.env
+BACK-END/back-end/.env.*
+
+# Laravel
+BACK-END/back-end/storage/*.key
+BACK-END/back-end/storage/logs/
+BACK-END/back-end/storage/framework/cache/
+BACK-END/back-end/storage/framework/sessions/
+BACK-END/back-end/storage/framework/views/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

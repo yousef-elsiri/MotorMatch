@@ -1,0 +1,32 @@
+.latest_listings {
+  padding: 60px 50px;
+}
+
+.latest_listings_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.latest_listings_header h1 {
+  font-size: 42px;
+}
+
+.latest_listings_header p {
+  color: #a3aebb;
+  padding-top: 8px;
+}
+
+.latest_listings_grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 400px));
+  gap: 25px;
+  justify-content: center;
+}
+
+@media (max-width: 1320px) {
+  .latest_listings_grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

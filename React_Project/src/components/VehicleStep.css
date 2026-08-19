@@ -1,0 +1,95 @@
+.car-form {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.car-form h2 {
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.car-form p {
+  color: #9ca3af;
+  margin-bottom: 30px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-box label {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.input-box input,
+.input-box select {
+  height: 50px;
+  padding: 0 15px;
+  border: none;
+  border-radius: 10px;
+  background: #090d14;
+  color: white;
+  outline: none;
+  font-size: 16px;
+}
+
+.buttons {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.back,
+.continue {
+  width: 140px;
+  height: 48px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.back {
+  font-size: 18px;
+  background: #080b13;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+}
+
+.continue {
+  font-size: 18px;
+  background: #ff7b00;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+}
+
+.buttons span {
+  color: white;
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+}
